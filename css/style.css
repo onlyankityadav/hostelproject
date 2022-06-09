@@ -1,0 +1,757 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Commissioner", sans-serif;
+  
+}
+body::-webkit-scrollbar{
+  width: 1rem;
+}
+/* =============================Navbar section css starts here ============================= */
+.nav-main {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+.navback {
+  background-color: #f15824;
+  color: white;
+}
+.togglerclass {
+  background-color: #f15824;
+}
+.fa-bars {
+  color: aliceblue;
+}
+.nav-main a .logo {
+  font-size: 3.5rem;
+  line-height: 30px;
+  font-weight: bolder;
+}
+.navname {
+  margin-left: 10px;
+}
+.nav-main a {
+  text-decoration: none;
+  color: #f1f1f1;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.nav-main a:hover {
+  color: #f15824;
+}
+.activeclass {
+  border-bottom: 2px solid #f15824;
+}
+
+/* =============================Slider or background section css starts here ============================= */
+.sliderbackhome {
+  height: 35rem;
+  background-repeat: no-repeat;
+  backface-visibility: hidden;
+  animation: bgslide 10s linear infinite;
+  animation-timing-function: ease-in-out;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/images/slider1.jpg);
+}
+@keyframes bgslide {
+  0% {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(/images/slider1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+  25% {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(/images/slider2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+  50% {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(/images/slider3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+  75% {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(/images/slider4.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+  100% {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(/images/slider1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+}
+.sliderback {
+  height: 15rem;
+  background-repeat: no-repeat;
+  backface-visibility: hidden;
+  animation: bgslide 10s linear infinite;
+  animation-timing-function: ease-in-out;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/images/slider1.jpg);
+}
+
+/* =============================Home Head section css starts here ============================= */
+
+.headformindex {
+  color: white;
+}
+.headformindex h1 {
+  padding-top: 10rem;
+  font-size: 4rem;
+  font-weight: bolder;
+}
+.headformindex label {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.headformindex select {
+  background-color: #f15824;
+  color: #f1f1f1;
+  font-size: 1rem;
+  margin-left: 10px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-weight: bolder;
+  border: none;
+}
+.headformindex option {
+  color: #f1f1f1;
+  border-radius: 10px;
+  border: none;
+}
+.headformindex input {
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 1rem;
+  color: white;
+  background-color: #f15824;
+  border-radius: 10px;
+  font-weight: bolder;
+  border: none;
+}
+.headform span,
+.headform .fas {
+  color: #f15824;
+}
+.headform {
+  color: aliceblue;
+  padding-top: 8rem;
+  margin-bottom: 5rem;
+  font-size: 3rem;
+  font-weight: bolder;
+  animation: headformanime 1s ease-out;
+}
+@keyframes headformanime {
+  from {
+    padding-top: 2rem;
+  }
+  to {
+    padding-top: 8rem;
+  }
+}
+
+/* =============================About section css starts here ============================= */
+
+.homeaboutsection {
+  padding-top: 3rem;
+}
+.homeabouthead {
+  margin-bottom: 1.8rem;
+  display: inline-flex;
+  padding-top: 10px;
+  font-weight: bolder;
+  border-top: 2px solid #f15824;
+}
+.homeabouthead span,
+.homeabouthead .fas {
+  color: #f15824;
+}
+.homeaboutpara {
+  text-align: justify;
+  font-weight: bold;
+  color: rgb(175, 174, 174);
+}
+.aboutdetails-main {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  background-color: rgba(240, 248, 255, 0.55);
+}
+.aboutdetails-head {
+ display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: bold;
+ 
+}
+.span1{
+  color: #f15824;
+  border-top: 2px solid black;
+}
+.span2{
+ 
+  color: black;
+  border-top: 2px solid #f15824;
+}
+.aboutdetails-row a {
+  text-decoration: none;
+}
+.aboutdetails-col a h4{
+    color: #f15824;
+    font-weight: bold;
+}
+.aboutdetails-col{
+  padding-top: 2rem;
+}
+
+
+/* =============================Rooms section css starts here ============================= */
+.room-main {
+  padding: 30px;
+  background-color: rgba(240, 248, 255, 0.55);
+}
+.room-main h1 {
+  margin-top: 40px;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 10px;
+  display: inline-block;
+  border-top: 2px solid #f15824;
+}
+.room-main h1 span,
+.room-main h1 .fas {
+  color: #f15824;
+}
+.room-main h2 {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  margin-top: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: #f15824;
+  border-bottom: 2px solid #f15824;
+}
+.room-main a {
+  text-decoration: none;
+  color: black;
+}
+.room-row {
+  padding-top: 30px;
+}
+.roomcards {
+  border: 1px solid #f15824;
+}
+.roombutton {
+  color: white;
+  background-color: #f15824;
+  width: 100%;
+  text-align: center;
+}
+.roombutton:hover {
+  background-color: orangered;
+}
+.roombutton a {
+  text-decoration: none;
+  color: white;
+  font-size: large;
+}
+
+.pricetag {
+  background-color: #f15824;
+  color: #f1f1f1;
+  padding: 5px;
+  position: absolute;
+  font: bolder;
+}
+
+/* ============================= room main partcss starts here ============================= */
+.galleryimghead-room {
+  position: absolute;
+  background-color: #f15824;
+  color: aliceblue;
+}
+.onclickmodal {
+  width: 100%;
+  line-height: 2rem;
+  text-align: center;
+  background-color: #f15824;
+}
+.onclickmodal a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.roomdetails-main{
+  margin-bottom: 3rem;
+  background-color: aliceblue;
+}
+.roomdetails-main h2 {
+  color: #1f1f1f;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  font-weight: bolder;
+}
+.offerprice {
+  text-decoration: line-through;
+}
+.roomprice {
+  color: #f15824;
+}
+.roomdetails-main h2 span {
+  color: #f15824;
+}
+.roomdetails-col .fas,
+.roomdetails-col h4 {
+  color: #f15824;
+}
+.roomdetailsbook {
+  color: #f1f1f1;
+  background-color: #f15824;
+  text-decoration: none;
+}
+.roomdetailsdescription h4 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.roomdetailsdescription button {
+  border: none;
+  background-color: transparent;
+  color: #f15824;
+  font-weight: bold;
+  text-decoration: underline;
+}
+/*===================== gallery for larger screen devices=====================  */
+.md-galleryimage:hover {
+  box-shadow: 2px 2px 10px #1f1f1f, -2px -2px 10px #1f1f1f;
+  border-radius: 10px;
+}
+/* =============================amenities css starts here ============================= */
+
+
+.amenities-head {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  font-weight: bold;
+  display: inline-block;
+  border-top: 2px solid #f15824;
+}
+.amenities {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+.amenities-head span {
+  color: #f15824;
+}
+.amenities-row .fas {
+  color: #f15824;
+}
+.amenities marquee .fas {
+  color: #f15824;
+}
+.amenities marquee span {
+  font-weight: bolder;
+}
+.amenities-main{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.amenities-head{
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.amenities-main .amenities-col{
+  background-color: aliceblue;
+}
+.amenities-main h4{
+  font-weight: bolder;
+}
+.amenities-main .fas{
+  color: #f15824;
+}
+.amenities-main p{
+  font-weight: bold;
+  text-align: justify;
+  
+}
+/* =============================Gallery section css starts here ============================= */
+.gallery-main {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: rgba(240, 248, 255, 0.55);
+}
+.galleryhead {
+  margin-top: 3rem;
+  text-align: center;
+  font-weight: bold;
+  display: inline-block;
+  border-top: 2px solid #f15824;
+}
+.galleryhead span,
+.galleryhead .fas {
+  color: #f15824;
+}
+.galleryimghead {
+  background-color: #f15824;
+  color: #f1f1f1;
+  padding: 5px;
+  position: absolute;
+  font: bolder;
+  justify-content: center;
+}
+.gallery-row {
+  padding-top: 30px;
+}
+.gallery-col {
+  margin-top: 1rem;
+}
+.gallery-col:hover {
+  border: 2px solid #f15824;
+}
+
+/* =============================Reviews section css starts here ============================= */
+.reviewshead {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  font-weight: bold;
+  display: inline-block;
+  border-top: 2px solid #f15824;
+}
+.reviews-main {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+.reviewshead span,
+.reviewshead .fas {
+  color: #f15824;
+}
+.reviews-col h1 {
+  color: black;
+  font-weight: bolder;
+}
+.reviews-col label {
+  color: #f15824;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+.reviews-col label .fas {
+  color: gold;
+  margin-left: 5px;
+}
+.reviews-col {
+  color: #f15824;
+}
+.reviews-col-2 h1,
+.reviews-col-2 h3 {
+  font-weight: bolder;
+}
+.reviews-col-2 p {
+  font-weight: bold;
+  color: #f15824;
+}
+.reviews-col-2 .fas,
+.reviews-col-2 .far {
+  color: gold;
+}
+.reviewsbutton {
+  margin: 10px;
+  color: blueviolet;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.peoplereviewshead {
+  color: #f15824;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #f15824;
+}
+.reviewsname {
+  font-weight: bolder;
+  color: #f15824;
+}
+.reviewimg {
+  border-radius: 50%;
+}
+/*====================contact css starts here======================*/
+.contactmain {
+  padding-bottom: 2rem;
+  background-color: #f1f1f1;
+}
+.contactmain h2 {
+  padding-top: 4rem;
+  margin-bottom: 2rem;
+  color: #f15824;
+  border-bottom: 2px solid black;
+}
+.contactmain input,.contactmain textarea {
+  background-color: #f1f1f1;
+  color: black;
+}
+.contactmain label {
+  color: #f15824;
+  font-weight: bold;
+}
+.contactmain button {
+  background-color: #f15824;
+  color: aliceblue;
+  font-size: large;
+}
+.contactmain button:hover {
+  color: #f1f1f1;
+  background-color: orangered;
+}
+/* =============================modal custumized css starts here ============================= */
+.modal {
+  padding: 0 !important;
+  margin-top: 2rem;
+  background-color: transparent;
+  border: none;
+}
+.modal-dialog,
+.modal-content {
+  min-width: calc(100% / 2);
+  background-color: transparent;
+  border: none;
+}
+.modal-header {
+  border: none;
+}
+.modal-header button span {
+  color: #f15824;
+  opacity: 1;
+}
+.modal-header button span .fas {
+  color: white;
+}
+
+/* =============================footer css starts here ============================= */
+
+footer {
+  margin: auto;
+}
+
+footer .column1 h2,
+.column2 h2,
+.column3 h2,
+.column2 h3,
+.column3 h3,
+.column4 h2 {
+  color: #f15824;
+}
+.footer-box {
+  background-color: whitesmoke;
+}
+footer a {
+  color: #f15824;
+  font-weight: bold;
+}
+footer a:hover {
+  color: orangered;
+}
+footer label {
+  font-weight: bold;
+}
+footer .column2 button {
+  font-weight: bold;
+  padding: 10px 20px;
+  outline: 2px solid #f15824;
+  color: #f15824;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  margin: 5px;
+}
+footer .column2 button:hover {
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  background-color: #f15824;
+  border: none;
+  border-radius: 10px;
+  margin: 5px;
+}
+footer .column2 input {
+  color: #f15824;
+  outline: none;
+  padding: 10px 5px;
+  border-radius: 10px;
+  border: 1px solid;
+  line-height: normal;
+}
+address {
+  color: black;
+  font-weight: bold;
+}
+.footerfoot {
+  background: #f15824;
+}
+.footerfoot p,
+.footerfoot a {
+  color: whitesmoke;
+  font-size: 1.1rem;
+}
+
+/*============================= modal css starts here =========================== */
+
+.feedback {
+  width: 100%;
+  max-width: 780px;
+  background: #f1f1f1;
+  margin: 0 auto;
+  padding: 15px;
+  box-shadow: 1px 1px 16px rgba(0, 0, 0, 0.3);
+}
+.survey-hr {
+  margin: 10px 0;
+  border: 0.5px solid #ddd;
+}
+.star-rating {
+  margin: 25px 0 0px;
+  font-size: 0;
+  white-space: nowrap;
+  display: inline-block;
+  width: 175px;
+  height: 35px;
+  overflow: hidden;
+  position: relative;
+  background: url("data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMjBweCIgaGVpZ2h0PSIyMHB4IiB2aWV3Qm94PSIwIDAgMjAgMjAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIiB4bWw6c3BhY2U9InByZXNlcnZlIj48cG9seWdvbiBmaWxsPSIjREREREREIiBwb2ludHM9IjEwLDAgMTMuMDksNi41ODMgMjAsNy42MzkgMTUsMTIuNzY0IDE2LjE4LDIwIDEwLDE2LjU4MyAzLjgyLDIwIDUsMTIuNzY0IDAsNy42MzkgNi45MSw2LjU4MyAiLz48L3N2Zz4=");
+  background-size: contain;
+}
+.star-rating i {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 20%;
+  z-index: 1;
+  background: url("data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMjBweCIgaGVpZ2h0PSIyMHB4IiB2aWV3Qm94PSIwIDAgMjAgMjAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIiB4bWw6c3BhY2U9InByZXNlcnZlIj48cG9seWdvbiBmaWxsPSIjRkZERjg4IiBwb2ludHM9IjEwLDAgMTMuMDksNi41ODMgMjAsNy42MzkgMTUsMTIuNzY0IDE2LjE4LDIwIDEwLDE2LjU4MyAzLjgyLDIwIDUsMTIuNzY0IDAsNy42MzkgNi45MSw2LjU4MyAiLz48L3N2Zz4=");
+  background-size: contain;
+}
+.star-rating input {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  opacity: 0;
+  display: inline-block;
+  width: 20%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  z-index: 2;
+  position: relative;
+}
+.star-rating input:hover + i,
+.star-rating input:checked + i {
+  opacity: 1;
+}
+.star-rating i ~ i {
+  width: 40%;
+}
+.star-rating i ~ i ~ i {
+  width: 60%;
+}
+.star-rating i ~ i ~ i ~ i {
+  width: 80%;
+}
+.star-rating i ~ i ~ i ~ i ~ i {
+  width: 100%;
+}
+.choice {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 20px;
+  display: block;
+}
+span.scale-rating {
+  margin: 5px 0 15px;
+  display: inline-block;
+
+  width: 100%;
+}
+span.scale-rating > label {
+  position: relative;
+  -webkit-appearance: none;
+  outline: 0 !important;
+  border: 1px solid grey;
+  height: 33px;
+  margin: 0 5px 0 0;
+  width: calc(10% - 7px);
+  float: left;
+  cursor: pointer;
+}
+span.scale-rating label {
+  position: relative;
+  -webkit-appearance: none;
+  outline: 0 !important;
+  height: 33px;
+
+  margin: 0 5px 0 0;
+  width: calc(10% - 7px);
+  float: left;
+  cursor: pointer;
+}
+span.scale-rating input[type="radio"] {
+  position: absolute;
+  -webkit-appearance: none;
+  opacity: 0;
+  outline: 0 !important;
+  /*border-right: 1px solid grey;*/
+  height: 33px;
+
+  margin: 0 5px 0 0;
+
+  width: 100%;
+  float: left;
+  cursor: pointer;
+  z-index: 3;
+}
+span.scale-rating label:hover {
+  background: gold;
+}
+span.scale-rating input[type="radio"]:last-child {
+  border-right: 0;
+}
+span.scale-rating label input[type="radio"]:checked ~ label {
+  -webkit-appearance: none;
+
+  margin: 0;
+  background: gold;
+}
+span.scale-rating label:before {
+  content: attr(value);
+  top: 7px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  vertical-align: middle;
+  z-index: 2;
+}
+
+/* =============================End of css of home page ============================= */
